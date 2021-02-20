@@ -1,0 +1,20 @@
+{
+  "name": "ts-mover",
+  "version": "1.0.0",
+  "description": "Utility for moving and renaming files in a TypeScript project",
+  "main": "index.js",
+  "repository": "https://github.com/danvk/ts-mover.git",
+  "author": "Dan Vanderkam <danvdk@gmail.com>",
+  "license": "apache-2.0",
+  "scripts": {
+    "build": "tsc",
+    "test": "build"
+  },
+  "dependencies": {
+    "ts-morph": "^9.1.0",
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31"
+  }
+}
