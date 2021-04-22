@@ -1,11 +1,14 @@
 {
   "name": "ts-mover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility for moving and renaming files in a TypeScript project",
   "main": "index.js",
   "repository": "https://github.com/danvk/ts-mover.git",
   "author": "Dan Vanderkam <danvdk@gmail.com>",
   "license": "apache-2.0",
+  "bin": {
+    "ts-mover": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "test": "build"
